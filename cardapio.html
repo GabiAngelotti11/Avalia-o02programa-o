@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio - La Bella Gastronomia</title>
+  <link rel="icon" href="Img/La Bella Gastronomia.png" type="image/x-icon"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Definição de cores */
+    body {
+      background-color:#fffeea; /* Fundo suave */
+    }
+    .bg-pele {
+      background-color: #d2b595 !important;
+    }
+    .text-pele {
+      color: #f5d7b5 !important;
+    }
+    .card-title {
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pele">
+    <div class="col-md-6">
+      <img src="Img/La Bella Gastronomia.png" alt="Logo" class="img-fluid">
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cardapio">Cardápio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Cardápio -->
+  <section id="cardapio" class="container my-5">
+    <h2 class="text-center mb-4">Nosso Cardápio</h2>
+    <div class="row">
+      <!-- Pratos -->
+      <div class="col-lg-6">
+        <h3 class="mb-3">Pratos</h3>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card bg-pele h-100">
+              <div class="card-body">
+                <h4 class="card-title">Filé</h4>
+                <img src="Img/file minhone.jpg" alt="Filé Mignon" class="img-fluid mb-2">
+                <p class="card-text">Delicioso filé grelhado acompanhado de purê de batatas cremoso e vegetais frescos.</p>
+                <p class="card-text"><strong>Preço: R$ 30,00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card bg-pele h-100">
+              <div class="card-body">
+                <h4 class="card-title">Risoto</h4>
+                <img src="img/risocamarao.jpg" alt="Risoto de camarão" class="img-fluid mb-2">
+                <p class="card-text">Risoto de camarão preparado com arroz arbóreo, ervas frescas e toque de limão siciliano.</p>
+                <p class="card-text"><strong>Preço: R$ 45,00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card bg-pele h-100">
+              <div class="card-body">
+                <h4 class="card-title">Lasanha</h4>
+                <img src="img/lasanha-a-bolonhesa.jpg" alt="Lasanha à bolonhesa" class="img-fluid mb-2">
+                <p class="card-text">Tradicional lasanha à bolonhesa com camadas generosas de queijo derretido e molho caseiro.</p>
+                <p class="card-text"><strong>Preço: R$ 35,00</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bebidas -->
+      <div class="col-lg-6">
+        <h3 class="mb-3">Bebidas</h3>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card bg-pele h-100">
+              <div class="card-body">
+                <h4 class="card-title">Suco Natural</h4>
+                <img src="Img/suco.jpg" alt="Suco natural" class="img-fluid mb-2">
+                <p class="card-text">Escolha entre laranja, abacaxi, limão ou maracujá. 100% natural e refrescante.</p>
+                <p class="card-text"><strong>Preço: R$ 8,00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card bg-pele h-100">
+              <div class="card-body">
+                <h4 class="card-title">Refrigerante</h4>
+                <img src="img/refrigerante.jpg" alt="Refrigerante" class="img-fluid mb-2">
+                <p class="card-text">Variedades disponíveis: Coca-Cola, Guaraná, Fanta e mais.</p>
+                <p class="card-text"><strong>Preço: R$ 6,00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card bg-pele h-100">
+              <div class="card-body">
+                <h4 class="card-title">Cerveja Artesanal</h4>
+                <img src="img/cerveja-artesanal.jpg" alt="Cerveja artesanal" class="img-fluid mb-2">
+                <p class="card-text">Opções selecionadas para acompanhar sua refeição com estilo.</p>
+                <p class="card-text"><strong>Preço: R$ 12,00</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

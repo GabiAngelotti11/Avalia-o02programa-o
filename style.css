@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .hero {
+    background: url('assets/img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+ img {
+   width: 180px;
+   height: 180px;
+ }
+ #Logo{
+      width: 180px;
+      height: 180px;
+    }

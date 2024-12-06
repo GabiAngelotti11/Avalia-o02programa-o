@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante La Bella Gastronomia</title>
+  <link rel="icon" href="Img/La Bella Gastronomia.png" type="image/x-icon"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <style>
+    /* Definição de cores de pele */
+    .bg-pele {
+      background-color: #d2b595 !important;
+    }
+    .text-pele {
+      color: #f5d7b5 !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pele">
+    <div class="col-md-6">
+      <img src="Img/La Bella Gastronomia.png" alt="Logo do Restaurante" class="img-fluid">
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cardapio.html">Cardápio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header class="hero bg-pele text-white text-center py-5">
+    <h1>Bem-vindo ao La Bella Gastronomia</h1>
+    <p>Onde a comida e o ambiente se encontram</p>
+   
+  </header>
+
+  <!-- Sobre o Restaurante -->
+  <section id="sobre" class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Sobre Nós</h2>
+        <p>Nosso restaurante oferece uma experiência única com pratos deliciosos, preparados com ingredientes frescos e locais. 
+            Venha conhecer o sabor de nossa culinária!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabela de Horários -->
+  <section id="horarios" class="container my-5">
+    <h2>Horários de Funcionamento</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Dias</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Segunda a Sexta</td>
+          <td>11:00 - 22:00</td>
+        </tr>
+        <tr>
+          <td>Sábado</td>
+          <td>12:00 - 23:00</td>
+        </tr>
+        <tr>
+          <td>Domingo</td>
+          <td>Fechado</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!-- Formulário de Contato -->
+  <section id="contato" class="container my-5">
+    <h2>Entre em Contato</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-pele text-white text-center py-3">
+    <p>&copy; 2024 La Bella Gastronomia. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
